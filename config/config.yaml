@@ -2,6 +2,11 @@ artifacts_root: artifacts
 
 data_ingestion:
   root_dir: artifacts/data_ingestion
-  source_URL: https://github.com/kyeremehS/datasets/raw/refs/heads/main/s.zip
+  source_URL: https://github.com/kyeremehS/datasets/raw/refs/heads/main/d.zip
   local_data_file: artifacts/data_ingestion/data.zip
   unzip_dir: artifacts/data_ingestion
+
+data_validation:
+  root_dir: artifacts/data_validation
+  STATUS_FILE: artifacts/data_validation/status.txt
+  unzip_data_dir: artifacts/data_ingestion/s.zip.csv
