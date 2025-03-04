@@ -1,3 +1,1 @@
 Validation status: True
-Missing columns: set()
-Unexpected columns: set()
