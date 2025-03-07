@@ -1,1 +1,5 @@
-key: value
+Elastic_Net:
+  alpha: 0.2
+  l1_ratio: 0.1
+  random_state: 42
+  
