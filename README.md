@@ -23,3 +23,12 @@ conda activate mlproj
 ``` bash
 pip install -r requirements.txt
 ```
+
+``` bash
+python app.py
+```
+
+``` bash
+Open local local host 0.0.0.0:8080
+```
+
